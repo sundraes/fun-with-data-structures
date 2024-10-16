@@ -1,6 +1,7 @@
 # Theory
 ## 2022 A Level P1 Q4
 Solution:
+
 (a)
 
 (b)
