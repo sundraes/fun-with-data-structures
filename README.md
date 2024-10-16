@@ -6,13 +6,13 @@
 - Enables direct access of elements through their index.
 
 
-## Linked List
+## Linked Lists
 - A linked list is a linear data structure where nodes are stored as separate objects and linked together using pointers.
 - Each node contains two parts: data and reference to the next node.
 - Allows for dynamic memory allocation and efficient insertions and deletions, as nodes can be easily added or removed without reorganising the entire structure.
 
 
-## Stack
+## Stacks
 - Collection of elements that follows the Last In First Out (LIFO) priniciple.
 - Primary operations:
   * push (add element to top of stack)
@@ -21,7 +21,7 @@
   * management of function calls
   * undo mechanisms in programs
     
-## Linear Queue
+## Linear Queues
 - Linear data structure that follows the First In First Out (FIFO) principle.
 - First element that is added to the queue is also the first one removed from queue.
 - Primary operations:
@@ -32,7 +32,7 @@
   * handling events like user interactions with applications
   * managing incoming calls at call centres
  
-## Circular Queue
+## Circular Queues
 - A variation where the last position is connected to the first position to form a circle.
 - Utilises space more efficiently by allowing continuous addition and removal of elements without needing to shift elements.
   
