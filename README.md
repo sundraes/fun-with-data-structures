@@ -35,7 +35,7 @@
 ## Hash Tables
 - Allows for efficient data retrieval using keys
 - Uses a hash function to compute an index into an array of buckets or slots, from which the desired value can be found.
-- Hash tables provide average-case O(1) time complexity for search, insert, and delete operations.
+- Average-case O(1) time complexity for search, insert, and delete operations.
   
 ## Binary Search Trees
 - A hierarchical data structure in which each node has at most two children referred to as the left child and right child.
