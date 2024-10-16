@@ -1,5 +1,7 @@
 # Let's have fun with data structures
 
+[A-Level Questions](a-level-questions.md)
+
 ## Arrays
 - An array is a data structure that stores a collection of elements of the **same data type** in a **contiguous block of memory**.
 - Each element can be accessed using an index, indicating its position in the array.
