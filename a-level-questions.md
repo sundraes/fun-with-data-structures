@@ -2,16 +2,23 @@
 ## 2022 A Level P1 Q4
 Solution:
 (a)
+
 (b)
+
 (c)(i)
+
 (ii)
+
 (iii)
+
 (d)
+
 ```
 // PSEUDOCODE HERE
 
 ```
 (e)
+
 
 ## 2022 A Level P1 Q8
 ## 2021 A Level P1 Q4
