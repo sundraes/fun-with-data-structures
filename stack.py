@@ -14,23 +14,29 @@ class Stack:
       return "cannot pop from empty stack"           # if its empty, it will return
     return self.data.pop()  # After removable of last item, return to the calling prog
 
+  def peek(self):
+    if self.is_empty():
+      return 'nothing to peek due to stack being empty'
+    return self.data[len(self.data)-1]
+
   def display(self):
     if self.is_empty():
-        print('empty stack')
+      print('empty stack')
     else:    
     #     for i in range(len(self.data)):   
-        for i in range(len(self.data)-1, -1, -1):  # Reverse the order. Top value then lower value
-          print(self.data[i], end=' ')
-        print() 
+      for i in range(len(self.data)-1, -1, -1):  # Reverse the order. Top value then lower value
+        print(self.data[i], end=' ')
+      print() 
 
 # Main
 stack = Stack()    # Will run line 3 and 4
 stack.display()
 stack.push(15)
 stack.push(20)
+print(f"top item: {stack.peek()}")
 stack.display()
 print(stack.pop())   # show what has been removed
-
 print(stack.pop())   # removes the remaining item
 print(stack.pop())   # check if we have an empty stack and the command is working
 stack.display()
+print(stack.peek())
